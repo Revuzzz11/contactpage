@@ -68,3 +68,9 @@ button:hover {
     transform: scale(1);
   }
 }
+@media (max-width: 365px) {
+  .container {
+    width: 20rem;
+    margin: 0 0 15px -90px;
+  }
+}
