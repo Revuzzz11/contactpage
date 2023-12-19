@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 100px;
+  padding: 20px;
+  background-image: url(tree.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(184, 69, 69);
+  animation: pulse 1.5s infinite;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 358);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.207);
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b40f7d;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 01);
+}
+button {
+  padding: 10px 20px;
+  background-color: #e05ba2;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+button:hover {
+  background-color: rgb(40, 38, 38);
+}
+
+#response strong {
+  margin-bottom: 5px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
